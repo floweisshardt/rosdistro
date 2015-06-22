@@ -6,6 +6,17 @@ release_platforms:
   ubuntu:
   - trusty
 repositories:
+  cob_calibration_data:
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/ipa320/cob_calibration_data-release.git
+      version: 0.6.3-0
+    source:
+      type: git
+      url: https://github.com/ipa320/cob_calibration_data.git
+      version: indigo_dev
+    status: maintained
   ros_canopen:
     release:
       packages:
