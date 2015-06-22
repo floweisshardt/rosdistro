@@ -17,6 +17,255 @@ repositories:
       url: https://github.com/ipa320/cob_calibration_data.git
       version: indigo_dev
     status: maintained
+  cob_command_tools:
+    release:
+      packages:
+      - cob_command_gui
+      - cob_command_tools
+      - cob_dashboard
+      - cob_interactive_teleop
+      - cob_monitoring
+      - cob_script_server
+      - cob_teleop
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/ipa320/cob_command_tools-release.git
+      version: 0.6.2-0
+    source:
+      type: git
+      url: https://github.com/ipa320/cob_command_tools.git
+      version: indigo_dev
+    status: maintained
+  cob_common:
+    release:
+      packages:
+      - cob_common
+      - cob_description
+      - cob_msgs
+      - cob_srvs
+      - raw_description
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/ipa320/cob_common-release.git
+      version: 0.6.3-0
+    source:
+      type: git
+      url: https://github.com/ipa320/cob_common.git
+      version: indigo_dev
+    status: maintained
+  cob_control:
+    release:
+      packages:
+      - cob_base_velocity_smoother
+      - cob_cartesian_controller
+      - cob_collision_velocity_filter
+      - cob_control
+      - cob_control_mode_adapter
+      - cob_footprint_observer
+      - cob_frame_tracker
+      - cob_model_identifier
+      - cob_omni_drive_controller
+      - cob_trajectory_controller
+      - cob_twist_controller
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/ipa320/cob_control-release.git
+      version: 0.6.8-4
+    source:
+      type: git
+      url: https://github.com/ipa320/cob_control.git
+      version: indigo_dev
+    status: maintained
+  cob_driver:
+    release:
+      packages:
+      - cob_base_drive_chain
+      - cob_camera_sensors
+      - cob_canopen_motor
+      - cob_driver
+      - cob_generic_can
+      - cob_head_axis
+      - cob_light
+      - cob_mimic
+      - cob_phidgets
+      - cob_relayboard
+      - cob_sick_lms1xx
+      - cob_sick_s300
+      - cob_sound
+      - cob_undercarriage_ctrl
+      - cob_utilities
+      - cob_voltage_control
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/ipa320/cob_driver-release.git
+      version: 0.6.3-0
+    source:
+      type: git
+      url: https://github.com/ipa320/cob_driver.git
+      version: indigo_dev
+    status: maintained
+#  cob_environments:
+#    release:
+#      packages:
+#      - cob_default_env_config
+#      - cob_environments
+#      tags:
+#        release: release/indigo/{package}/{version}
+#      url: https://github.com/ipa320/cob_environments-release.git
+#      version: 0.6.1-0
+#    source:
+#      type: git
+#      url: https://github.com/ipa320/cob_environments.git
+#      version: indigo_dev
+#    status: maintained
+#  cob_extern:
+#    release:
+#      packages:
+#      - cob_extern
+#      - libntcan
+#      - libpcan
+#      - libphidgets
+#      tags:
+#        release: release/indigo/{package}/{version}
+#      url: https://github.com/ipa320/cob_extern-release.git
+#      version: 0.6.1-0
+#    source:
+#      type: git
+#      url: https://github.com/ipa320/cob_extern.git
+#      version: indigo_dev
+#    status: maintained
+  cob_gazebo_plugins:
+    release:
+      packages:
+      - cob_gazebo_plugins
+      - cob_gazebo_ros_control
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/ipa320/cob_gazebo_plugins-release.git
+      version: 0.6.2-0
+    source:
+      type: git
+      url: https://github.com/ipa320/cob_gazebo_plugins.git
+      version: indigo_dev
+    status: maintained
+  cob_manipulation:
+    release:
+      packages:
+      - cob_grasp_generation
+      - cob_kinematics
+      - cob_lookat_action
+      - cob_manipulation
+      - cob_moveit_config
+      - cob_moveit_interface
+      - cob_pick_place_action
+      - cob_tactiletools
+      - cob_tray_monitor
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/ipa320/cob_manipulation-release.git
+      version: 0.6.1-0
+    source:
+      type: git
+      url: https://github.com/ipa320/cob_manipulation.git
+      version: indigo_dev
+    status: maintained
+  cob_navigation:
+    release:
+      packages:
+      - cob_linear_nav
+      - cob_mapping_slam
+      - cob_navigation
+      - cob_navigation_config
+      - cob_navigation_global
+      - cob_navigation_local
+      - cob_navigation_slam
+      - cob_scan_unifier
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/ipa320/cob_navigation-release.git
+      version: 0.6.2-0
+    source:
+      type: git
+      url: https://github.com/ipa320/cob_navigation.git
+      version: indigo_dev
+    status: maintained
+  cob_people_perception:
+    source:
+      type: git
+      url: https://github.com/ipa-rmb/cob_people_perception.git
+      version: indigo_dev
+    status: developed
+  cob_perception_common:
+    release:
+      packages:
+      - cob_cam3d_throttle
+      - cob_image_flip
+      - cob_object_detection_msgs
+      - cob_object_detection_visualizer
+      - cob_perception_common
+      - cob_perception_msgs
+      - cob_vision_utils
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/ipa320/cob_perception_common-release.git
+      version: 0.6.6-0
+    source:
+      type: git
+      url: https://github.com/ipa320/cob_perception_common.git
+      version: indigo_dev
+    status: maintained
+  cob_robots:
+    release:
+      packages:
+      - cob_bringup
+      - cob_controller_configuration_gazebo
+      - cob_default_robot_config
+      - cob_hardware_config
+      - cob_robots
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/ipa320/cob_robots-release.git
+      version: 0.6.3-0
+    source:
+      type: git
+      url: https://github.com/ipa320/cob_robots.git
+      version: indigo_dev
+    status: maintained
+  cob_simulation:
+    release:
+      packages:
+      - cob_bringup_sim
+      - cob_gazebo
+      - cob_gazebo_objects
+      - cob_gazebo_worlds
+      - cob_simulation
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/ipa320/cob_simulation-release.git
+      version: 0.6.3-0
+    source:
+      type: git
+      url: https://github.com/ipa320/cob_simulation.git
+      version: indigo_dev
+    status: maintained
+#  cob_substitute:
+#    release:
+#      packages:
+#      - cob_lbr
+#      - cob_safety_controller
+#      - cob_substitute
+#      - frida_driver
+#      - prace_common
+#      - prace_gripper_driver
+#      tags:
+#        release: release/indigo/{package}/{version}
+#      url: https://github.com/ipa320/cob_substitute-release.git
+#      version: 0.6.1-0
+#    source:
+#      type: git
+#      url: https://github.com/ipa320/cob_substitute.git
+#      version: indigo_dev
+#    status: maintained
   ros_canopen:
     release:
       packages:
