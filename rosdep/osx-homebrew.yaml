@@ -91,6 +91,10 @@ fltk:
   osx:
     homebrew:
       packages: [fltk]
+fluid:
+  osx:
+    homebrew:
+      packages: [fltk]
 freeimage:
   osx:
     homebrew:
@@ -103,6 +107,10 @@ gazebo:
   osx:
     homebrew:
       packages: [gazebo]
+gazebo5:
+  osx:
+    homebrew:
+      packages: [osrf/simulation/gazebo5]
 gccxml:
   osx:
     homebrew:
@@ -155,6 +163,10 @@ libdc1394-dev:
   osx:
     homebrew:
       packages: [libdc1394]
+libdmtx-dev:
+  osx:
+    homebrew:
+      packages: [libdmtx]
 libflann:
   osx:
     homebrew:
@@ -163,6 +175,10 @@ libflann-dev:
   osx:
     homebrew:
       packages: [flann]
+libfltk-dev:
+  osx:
+    homebrew:
+      packages: [fltk]
 libftdi-dev:
   osx:
     homebrew:
@@ -171,6 +187,10 @@ libftgl-dev:
   osx:
     homebrew:
       packages: [ftgl]
+libgazebo5-dev:
+  osx:
+    homebrew:
+      depends: [gazebo5]
 libglew-dev:
   osx:
     homebrew:
@@ -215,6 +235,10 @@ libopenni-sensor-primesense-dev:
   osx:
     homebrew:
       packages: [totakke/openni/sensor-kinect]
+libopenni2-dev:
+  osx:
+    homebrew:
+      packages: [openni2]
 libpcap:
   osx:
     homebrew:
@@ -226,21 +250,21 @@ libpcl-all:
 libpcl-all-dev:
   osx:
     leopard:
-      homebrew: [pcl]
+      homebrew: [homebrew/science/pcl]
     lion:
-      homebrew: [pcl]
+      homebrew: [homebrew/science/pcl]
     mavericks:
       homebrew:
         install_flags: [--HEAD]
-        packages: [pcl]
+        packages: [homebrew/science/pcl]
     "mountain lion":
-      homebrew: [pcl]
+      homebrew: [homebrew/science/pcl]
     snow:
-      homebrew: [pcl]
+      homebrew: [homebrew/science/pcl]
     yosemite:
       homebrew:
         install_flags: [--HEAD]
-        packages: [pcl]
+        packages: [homebrew/science/pcl]
 libpgm:
   osx:
     homebrew:
@@ -434,6 +458,10 @@ pcre:
   osx:
     homebrew:
       packages: [pcre++]
+pcre-dev:
+  osx:
+    homebrew:
+      packages: [pcre++]
 pkg-config:
   osx:
     homebrew:
@@ -590,7 +618,7 @@ rake:
     homebrew:
       packages: []
 redis-server:
-  ox:
+  osx:
     homebrew:
       packages: [redis]
 ruby:

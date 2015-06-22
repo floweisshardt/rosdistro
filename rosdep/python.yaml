@@ -33,6 +33,8 @@ paramiko:
     raring: [python-paramiko]
     saucy: [python-paramiko]
     trusty: [python-paramiko]
+    utopic: [python-paramiko]
+    vivid: [python-paramiko]
 pyside-tools:
   debian: [pyside-tools]
   fedora: [pyside-tools]
@@ -46,6 +48,8 @@ pyside-tools:
     raring: [pyside-tools]
     saucy: [pyside-tools]
     trusty: [pyside-tools]
+    utopic: [pyside-tools]
+    vivid: [pyside-tools]
 python:
   arch: [python2]
   cygwin: [python]
@@ -68,6 +72,13 @@ python:
     trusty: [python-dev]
     trusty_python3: [python3-dev]
     utopic: [python-dev]
+    vivid: [python-dev]
+python-alembic:
+  ubuntu:
+    trusty: [alembic]
+    utopic: [python-alembic]
+    vivid: [python-alembic]
+    wily: [python-alembic]
 python-argparse:
   arch: [python2]
   debian:
@@ -98,6 +109,8 @@ python-argparse:
       packages: []
     utopic:
       packages: []
+    vivid:
+      packages: []
 python-avahi:
   arch: [avahi]
   debian: [python-avahi]
@@ -112,6 +125,8 @@ python-avahi:
     raring: [python-avahi]
     saucy: [python-avahi]
     trusty: [python-avahi]
+    utopic: [python-avahi]
+    vivid: [python-avahi]
 python-beautifulsoup:
   arch: [python2-beautifulsoup3]
   debian: [python-beautifulsoup]
@@ -151,6 +166,8 @@ python-bluez:
     raring: [python-bluez]
     saucy: [python-bluez]
     trusty: [python-bluez]
+    utopic: [python-bluez]
+    vivid: [python-bluez]
 python-cairo:
   debian: [python-cairo]
   fedora: [pycairo]
@@ -163,8 +180,9 @@ python-cairo:
     saucy: [python-cairo]
     trusty: [python-cairo]
     utopic: [python-cairo]
+    vivid: [python-cairo]
 python-catkin-pkg:
-  arch: [python2-catkin_pkg]
+  arch: [python2-catkin-pkg]
   debian: [python-catkin-pkg]
   fedora: [python-catkin_pkg]
   gentoo: [dev-python/catkin_pkg]
@@ -185,6 +203,16 @@ python-catkin-pkg:
     trusty: [python-catkin-pkg]
     trusty_python3: [python3-catkin-pkg]
     utopic: [python-catkin-pkg]
+    vivid: [python-catkin-pkg]
+python-catkin-tools:
+  fedora: [python-catkin_tools]
+  osx:
+    pip:
+      packages: [catkin_tools]
+  ubuntu: [python-catkin-tools]
+python-celery:
+  fedora: [python-celery]
+  ubuntu: [python-celery]
 python-cherrypy:
   fedora: [python-cherrypy]
   ubuntu:
@@ -193,6 +221,8 @@ python-cherrypy:
     raring: [python-cherrypy3]
     saucy: [python-cherrypy3]
     trusty: [python-cherrypy3]
+    utopic: [python-cherrypy3]
+    vivid: [python-cherrypy3]
 python-clearsilver:
   centos: [python-clearsilver]
   debian: [python-clearsilver]
@@ -208,7 +238,12 @@ python-clearsilver:
     saucy: [python-clearsilver]
     trusty: [python-clearsilver]
 python-colorama:
-  ubuntu: [python-colorama]
+  fedora: [python-colorama]
+  ubuntu:
+    saucy: [python-colorama]
+    trusty: [python-colorama]
+    utopic: [python-colorama]
+    vivid: [python-colorama]
 python-couchdb:
   debian: [python-couchdb]
   fedora: [python-couchdb]
@@ -238,6 +273,7 @@ python-coverage:
     trusty: [python-coverage]
     trusty_python3: [python3-coverage]
     utopic: [python-coverage]
+    vivid: [python-coverage]
 python-cpplint:
   debian:
     pip:
@@ -279,7 +315,10 @@ python-cwiid:
     raring: [python-cwiid]
     saucy: [python-cwiid]
     trusty: [python-cwiid]
+    utopic: [python-cwiid]
+    vivid: [python-cwiid]
 python-dateutil:
+  fedora: [python-dateutil]
   ubuntu:
     lucid: [python-dateutil]
     maverick: [python-dateutil]
@@ -298,6 +337,7 @@ python-deap-pip:
 python-docopt:
   debian:
     pip: [docopt]
+  fedora: [python-docopt]
   ubuntu:
     pip: [docopt]
 python-docutils:
@@ -314,6 +354,10 @@ python-docutils:
     saucy: [python-docutils]
     trusty: [python-docutils]
     trusty_python3: [python3-docutils]
+    utopic: [python-docutils]
+    utopic_python3: [python3-docutils]
+    vivid: [python-docutils]
+    vivid_python3: [python3-docutils]
 python-empy:
   arch: [python2-empy]
   debian: [python-empy]
@@ -332,6 +376,7 @@ python-empy:
     saucy: [python-empy]
     trusty: [python-empy]
     utopic: [python-empy]
+    vivid: [python-empy]
 python-enum:
   fedora: [python-enum]
   ubuntu:
@@ -357,6 +402,7 @@ python-espeak:
 python-flake8:
   fedora:
     '21': [python-flake8]
+    '22': [python-flake8]
     heisenbug: [python-flake8]
   ubuntu:
     trusty: [python-flake8]
@@ -375,6 +421,23 @@ python-flask:
     saucy: [python-flask]
     trusty: [python-flask]
     trusty_python3: [python3-flask]
+python-flask-restful:
+  ubuntu:
+    pip:
+      packages: [flask-restful]
+python-fysom:
+  debian:
+    pip:
+      packages: [fysom]
+  fedora:
+    pip:
+      packages: [fysom]
+  osx:
+    pip:
+      packages: [fysom]
+  ubuntu:
+    pip:
+      packages: [fysom]
 python-gridfs:
   debian: [python-gridfs]
   fedora: [python-pymongo-gridfs]
@@ -403,6 +466,8 @@ python-gst:
     raring: [python-gst0.10]
     saucy: [python-gst0.10]
     trusty: [python-gst0.10]
+    utopic: [python-gst0.10]
+    vivid: [python-gst0.10]
 python-gtk2:
   arch: [pygtk]
   debian: [python-gtk2]
@@ -452,6 +517,7 @@ python-imaging:
   debian: [python-imaging]
   fedora:
     '21': [python-pillow, python-pillow-qt]
+    '22': [python-pillow, python-pillow-qt]
     beefy: [python-imaging]
     heisenbug: [python-pillow, python-pillow-qt]
     schrödinger’s: [python-pillow, python-pillow-qt]
@@ -473,6 +539,7 @@ python-imaging:
     trusty: [python-imaging]
     trusty_python3: [python3-imaging]
     utopic: [python-imaging]
+    vivid: [python-imaging]
 python-impacket:
   debian: [python-impacket]
   fedora: [python-impacket]
@@ -486,6 +553,16 @@ python-impacket:
     raring: [python-impacket]
     saucy: [python-impacket]
     trusty: [python-impacket]
+    utopic: [python-impacket]
+    vivid: [python-impacket]
+python-itsdangerous:
+  ubuntu: [python-itsdangerous]
+python-jinja2:
+  ubuntu: [python-jinja2]
+python-jsonref-pip:
+  ubuntu:
+    pip:
+      packages: [jsonref]
 python-kitchen:
   arch: [python-kitchen]
   debian: [python-kitchen]
@@ -500,6 +577,8 @@ python-kitchen:
     raring: [python-kitchen]
     saucy: [python-kitchen]
     trusty: [python-kitchen]
+    utopic: [python-kitchen]
+    vivid: [python-kitchen]
 python-libpcap:
   debian: [python-libpcap]
   fedora: [pylibpcap]
@@ -540,6 +619,9 @@ python-matplotlib:
     trusty: [python-matplotlib]
     trusty_python3: [python3-matplotlib]
     utopic: [python-matplotlib]
+    utopic_python3: [python3-matplotlib]
+    vivid: [python-matplotlib]
+    vivid_python3: [python3-matplotlib]
 python-mechanize:
   arch: [python2-mechanize]
   debian: [python-mechanize]
@@ -570,6 +652,7 @@ python-mock:
     trusty: [python-mock]
     trusty_python3: [python3-mock]
     utopic: [python-mock]
+    vivid: [python-mock]
 python-msgpack:
   debian: [python-msgpack]
   fedora: [python-msgpack]
@@ -585,6 +668,41 @@ python-multicast:
     pip: [py-multicast]
   ubuntu:
     pip: [py-multicast]
+python-netaddr:
+  debian:
+    pip:
+      packages: [netaddr]
+  fedora:
+    pip:
+      packages: [netaddr]
+  osx:
+    pip:
+      packages: [netaddr]
+  ubuntu:
+    lucid: [python-netaddr]
+    maverick:
+      pip:
+        packages: [netaddr]
+    natty:
+      pip:
+        packages: [netaddr]
+    oneiric:
+      pip:
+        packages: [netaddr]
+    precise: [python-netaddr]
+    quantal:
+      pip:
+        packages: [netaddr]
+    raring:
+      pip:
+        packages: [netaddr]
+    saucy:
+      pip:
+        packages: [netaddr]
+    trusty: [python-netaddr]
+    trusty_python3: [python3-netaddr]
+    utopic: [python-netaddr]
+    vivid: [python-netaddr]
 python-netifaces:
   arch: [python2-netifaces]
   debian: [python-netifaces]
@@ -604,6 +722,7 @@ python-netifaces:
     trusty: [python-netifaces]
     trusty_python3: [python3-netifaces]
     utopic: [python-netifaces]
+    vivid: [python-netifaces]
 python-networkx:
   fedora: [python-networkx]
   ubuntu:
@@ -638,6 +757,7 @@ python-nose:
     trusty: [python-nose]
     trusty_python3: [python3-nose]
     utopic: [python-nose]
+    vivid: [python-nose]
 python-numpy:
   arch: [python2-numpy]
   debian: [python-numpy]
@@ -659,6 +779,7 @@ python-numpy:
     trusty: [python-numpy]
     trusty_python3: [python3-numpy]
     utopic: [python-numpy]
+    vivid: [python-numpy]
 python-oauth2:
   debian: [python-oauth2]
   fedora: [python-oauth2]
@@ -677,8 +798,10 @@ python-omniorb:
     raring: [python-omniorb, python-omniorb-omg, omniidl-python]
     saucy: [python-omniorb, python-omniorb-omg, omniidl-python]
     trusty: [python-omniorb, python-omniorb-omg, omniidl-python]
+    utopic: [python-omniorb, python-omniorb-omg, omniidl-python]
+    vivid: [python-omniorb, python-omniorb-omg, omniidl-python]
 python-opencv:
-  arch: [opencv]
+  arch: [opencv, python2-numpy]
   debian: [python-opencv]
   fedora: [opencv-python]
   ubuntu:
@@ -702,6 +825,19 @@ python-opengl:
     trusty: [python-opengl]
     trusty_python3: [python3-opengl]
     utopic: [python-opengl]
+    vivid: [python-opengl]
+python-pandas:
+  debian: [python-pandas]
+  ubuntu:
+    lucid: [python-pandas]
+    maverick: [python-pandas]
+    natty: [python-pandas]
+    oneiric: [python-pandas]
+    precise: [python-pandas]
+    quantal: [python-pandas]
+    raring: [python-pandas]
+    saucy: [python-pandas]
+    trusty: [python-pandas]
 python-paramiko:
   arch: [python2-paramiko]
   debian: [python-paramiko]
@@ -722,6 +858,9 @@ python-paramiko:
     saucy: [python-paramiko]
     trusty: [python-paramiko]
     utopic: [python-paramiko]
+    vivid: [python-paramiko]
+python-passlib:
+  ubuntu: [python-passlib]
 python-pcapy:
   debian: [python-pcapy]
   fedora: [pcapy]
@@ -735,6 +874,8 @@ python-pcapy:
     raring: [python-pcapy]
     saucy: [python-pcapy]
     trusty: [python-pcapy]
+    utopic: [python-pcapy]
+    vivid: [python-pcapy]
 python-pep8:
   debian: [pep8]
   fedora: [python-pep8]
@@ -742,6 +883,19 @@ python-pep8:
     pip:
       packages: [pep8]
   ubuntu: [pep8]
+python-percol:
+  debian:
+    pip:
+      packages: [percol]
+  fedora:
+    pip:
+      packages: [percol]
+  osx:
+    pip:
+      packages: [percol]
+  ubuntu:
+    pip:
+      packages: [percol]
 python-pexpect:
   debian: [python-pexpect]
   fedora: [pexpect]
@@ -756,6 +910,23 @@ python-pexpect:
     saucy: [python-pexpect]
     trusty: [python-pexpect]
     trusty_python3: [python3-pexpect]
+python-progressbar:
+  osx:
+    pip:
+      packages: [progressbar]
+  ubuntu:
+    lucid: [python-progressbar]
+    maverick: [python-progressbar]
+    natty: [python-progressbar]
+    oneiric: [python-progressbar]
+    precise: [python-progressbar]
+    quantal: [python-progressbar]
+    raring: [python-progressbar]
+    saucy: [python-progressbar]
+    trusty: [python-progressbar]
+    trusty_python3: [python3-progressbar]
+    utopic: [python-progressbar]
+    vivid: [python-progressbar]
 python-psutil:
   arch: [python2-psutil]
   debian: [python-psutil]
@@ -775,6 +946,7 @@ python-psutil:
     trusty: [python-psutil]
     trusty_python3: [python3-psutil]
     utopic: [python-psutil]
+    vivid: [python-psutil]
 python-psycopg2:
   fedora: [python-psycopg2]
   ubuntu:
@@ -804,6 +976,8 @@ python-pyassimp:
     raring: [python-pyassimp]
     saucy: [python-pyassimp]
     trusty: [python-pyassimp]
+    utopic: [python-pyassimp]
+    vivid: [python-pyassimp]
 python-pydot:
   arch: [python2-pydot]
   debian: [python-pydot]
@@ -827,6 +1001,7 @@ python-pydot:
     saucy: [python-pydot]
     trusty: [python-pydot]
     utopic: [python-pydot]
+    vivid: [python-pydot]
 python-pygame:
   debian: [python-pygame]
   fedora: [pygame-devel]
@@ -840,9 +1015,18 @@ python-pygame:
     raring: [python-pygame]
     saucy: [python-pygame]
     trusty: [python-pygame]
+    utopic: [python-pygame]
+    vivid: [python-pygame]
+python-pygithub3:
+  ubuntu:
+    pip:
+      packages: [pygithub3]
 python-pygraphviz:
   debian: [python-pygraphviz]
   fedora: [graphviz-python]
+  osx:
+    pip:
+      packages: [pygraphviz]
   ubuntu:
     lucid: [python-pygraphviz]
     maverick: [python-pygraphviz]
@@ -853,6 +1037,8 @@ python-pygraphviz:
     raring: [python-pygraphviz]
     saucy: [python-pygraphviz]
     trusty: [python-pygraphviz]
+    utopic: [python-pygraphviz]
+    vivid: [python-pygraphviz]
 python-pylint:
   debian: [pylint]
   fedora: [pylint]
@@ -877,8 +1063,7 @@ python-pymavlink:
     pip:
       packages: [pymavlink]
 python-pymodbus:
-  debian:
-    precise: [python-pymodbus]
+  debian: [python-pymodbus]
   fedora: [pymodbus]
   ubuntu:
     precise: [python-pymodbus]
@@ -902,6 +1087,10 @@ python-pymongo:
     saucy: [python-pymongo]
     trusty: [python-pymongo]
     trusty_python3: [python3-pymongo]
+    utopic: [python-pymongo]
+    utopic_python3: [python3-pymongo]
+    vivid: [python-pymongo]
+    vivid_python3: [python3-pymongo]
 python-pymouse:
   debian:
     pip:
@@ -937,6 +1126,10 @@ python-pyside:
     saucy: [python-pyside]
     trusty: [python-pyside]
     trusty_python3: [python3-pyside]
+    utopic: [python-pyside]
+    utopic_python3: [python3-pyside]
+    vivid: [python-pyside]
+    vivid_python3: [python3-pyside]
 python-pyside.qtuitools:
   debian: [python-pyside.qtuitools]
   fedora: [python-pyside]
@@ -951,6 +1144,10 @@ python-pyside.qtuitools:
     saucy: [python-pyside.qtuitools]
     trusty: [python-pyside.qtuitools]
     trusty_python3: [python3-pyside.qtuitools]
+    utopic: [python-pyside.qtuitools]
+    utopic_python3: [python3-pyside.qtuitools]
+    vivid: [python-pyside.qtuitools]
+    vivid_python3: [python3-pyside.qtuitools]
 python-pyudev:
   debian: [python-pyudev]
   fedora: [python-pyudev]
@@ -987,6 +1184,7 @@ python-qt-bindings:
     trusty: [python-pyside, libpyside-dev, libshiboken-dev, shiboken, python-qt4, python-qt4-dev, python-sip-dev]
     trusty_python3: [python3-pyside, libpyside-dev, libshiboken-dev, shiboken, python3-pyqt4, python3-sip-dev]
     utopic: [python-pyside, libpyside-dev, libshiboken-dev, shiboken, python-qt4, python-qt4-dev, python-sip-dev]
+    vivid: [python-pyside, libpyside-dev, libshiboken-dev, shiboken, python-qt4, python-qt4-dev, python-sip-dev]
 python-qt-bindings-gl:
   arch: [python2-pyqt4]
   debian: [python-qt4-gl]
@@ -1004,6 +1202,7 @@ python-qt-bindings-gl:
     saucy: [python-qt4-gl]
     trusty: [python-qt4-gl]
     utopic: [python-qt4-gl]
+    vivid: [python-qt4-gl]
 python-qt-bindings-qwt5:
   arch: [pyqwt]
   debian: [python-qwt5-qt4]
@@ -1021,6 +1220,7 @@ python-qt-bindings-qwt5:
     saucy: [python-qwt5-qt4]
     trusty: [python-qwt5-qt4]
     utopic: [python-qwt5-qt4]
+    vivid: [python-qwt5-qt4]
 python-qt4-gl:
   debian:
     apt:
@@ -1083,6 +1283,12 @@ python-requests:
     saucy: [python-requests]
     trusty: [python-requests]
     trusty_python3: [python3-requests]
+    utopic: [python-requests]
+    utopic_python3: [python3-requests]
+    vivid: [python-requests]
+    vivid_python3: [python3-requests]
+    wily: [python-requests]
+    wily_python3: [python3-requests]
 python-rosdep:
   debian: [python-rosdep]
   fedora: [python-rosdep]
@@ -1102,6 +1308,7 @@ python-rosdep:
     trusty: [python-rosdep]
     trusty_python3: [python3-rosdep]
     utopic: [python-rosdep]
+    vivid: [python-rosdep]
 python-rosdistro:
   debian: [python-rosdistro]
   fedora: [python-rosdistro]
@@ -1169,6 +1376,7 @@ python-rospkg:
     trusty: [python-rospkg]
     trusty_python3: [python3-rospkg]
     utopic: [python-rospkg]
+    vivid: [python-rospkg]
 python-scapy:
   debian: [python-scapy]
   fedora: [scapy]
@@ -1201,6 +1409,10 @@ python-scipy:
     saucy: [python-scipy]
     trusty: [python-scipy]
     trusty_python3: [python3-scipy]
+    utopic: [python-scipy]
+    utopic_python3: [python3-scipy]
+    vivid: [python-scipy]
+    vivid_python3: [python3-scipy]
 python-serial:
   arch: [python2-pyserial]
   debian: [python-serial]
@@ -1216,6 +1428,10 @@ python-serial:
     saucy: [python-serial]
     trusty: [python-serial]
     trusty_python3: [python3-serial]
+    utopic: [python-serial]
+    utopic_python3: [python3-serial]
+    vivid: [python-serial]
+    vivid_python3: [python3-serial]
 python-setuptools:
   arch: [python2-distribute]
   debian: [python-setuptools]
@@ -1232,6 +1448,31 @@ python-setuptools:
     saucy: [python-setuptools]
     trusty: [python-setuptools]
     trusty_python3: [python3-setuptools]
+    utopic: [python-setuptools]
+    utopic_python3: [python3-setuptools]
+    vivid: [python-setuptools]
+    vivid_python3: [python3-setuptools]
+python-shapely:
+  debian: [python-shapely]
+  fedora: [python-shapely]
+  osx:
+    pip:
+      packages: [shapely]
+  ubuntu:
+    lucid: [python-shapely]
+    maverick: [python-shapely]
+    natty: [python-shapely]
+    oneiric: [python-shapely]
+    precise: [python-shapely]
+    quantal: [python-shapely]
+    raring: [python-shapely]
+    saucy: [python-shapely]
+    trusty: [python-shapely]
+    trusty_python3: [python3-shapely]
+    utopic: [python-shapely]
+    utopic_python3: [python3-shapely]
+    vivid: [python-shapely]
+    vivid_python3: [python3-shapely]
 python-simplejson:
   debian: [python-simplejson]
   fedora: [python-simplejson]
@@ -1244,7 +1485,7 @@ python-sip:
   gentoo: [dev-python/sip]
   macports: [py27-sip]
   opensuse: [python-sip-devel]
-  osxbrew:
+  osx:
     homebrew:
       packages: [sip]
   rhel: [sip-devel]
@@ -1260,9 +1501,17 @@ python-sip:
     trusty: [python-sip-dev]
     trusty_python3: [python3-sip-dev]
     utopic: [python-sip-dev]
+    vivid: [python-sip-dev]
 python-sip4:
   fedora: [sip]
   macports: [py27-sip4]
+python-skimage:
+  osx:
+    pip:
+      packages: [scikit-image]
+  ubuntu:
+    pip:
+      packages: [scikit-image]
 python-sklearn:
   fedora: [python-scikit-learn]
   ubuntu:
@@ -1275,6 +1524,12 @@ python-sklearn:
     raring: [python-sklearn]
     saucy: [python-sklearn]
     trusty: [python-sklearn]
+    utopic: [python-sklearn]
+    vivid: [python-sklearn]
+    wily: [python-sklearn]
+python-smbus:
+  debian: [python-smbus]
+  ubuntu: [python-smbus]
 python-sphinx:
   arch: [python2-sphinx]
   debian: [python-sphinx]
@@ -1296,20 +1551,23 @@ python-sphinx:
     saucy: [python-sphinx]
     trusty: [python-sphinx]
     trusty_python3: [python3-sphinx]
+    utopic: [python-sphinx]
+    vivid: [python-sphinx]
+python-sqlalchemy:
+  debian: [python-sqlalchemy]
+  fedora: [python-sqlalchemy]
+  ubuntu:
+    precise: [python-sqlalchemy]
+    quantal: [python-sqlalchemy]
+    raring: [python-sqlalchemy]
+    saucy: [python-sqlalchemy]
+    trusty: [python-sqlalchemy]
+    trusty_python3: [python3-sqlalchemy]
 python-support:
   debian: [python-support]
   fedora: [python]
   gentoo: [python]
-  ubuntu:
-    lucid: [python-support]
-    maverick: [python-support]
-    natty: [python-support]
-    oneiric: [python-support]
-    precise: [python-support]
-    quantal: [python-support]
-    raring: [python-support]
-    saucy: [python-support]
-    trusty: [python-support]
+  ubuntu: [python-support]
 python-svn:
   debian: [python-svn]
   fedora: [pysvn]
@@ -1336,9 +1594,54 @@ python-sympy:
     raring: [python-sympy]
     saucy: [python-sympy]
     trusty: [python-sympy]
+python-termcolor:
+  debian:
+    pip:
+      packages: [termcolor]
+  fedora:
+    pip:
+      packages: [termcolor]
+  osx:
+    pip:
+      packages: [termcolor]
+  ubuntu:
+    lucid:
+      pip:
+        packages: [termcolor]
+    maverick:
+      pip:
+        packages: [termcolor]
+    natty:
+      pip:
+        packages: [termcolor]
+    oneiric:
+      pip:
+        packages: [termcolor]
+    precise:
+      pip:
+        packages: [termcolor]
+    quantal:
+      pip:
+        packages: [termcolor]
+    raring:
+      pip:
+        packages: [termcolor]
+    saucy:
+      pip:
+        packages: [termcolor]
+    trusty: [python-termcolor]
+    trusty_python3: [python3-termcolor]
+    utopic: [python-termcolor]
+    vivid: [python-termcolor]
 python-tftpy:
+  fedora: [python-tftpy]
   ubuntu: [python-tftpy]
 python-tilestache:
+  fedora:
+    '21': [python-tilestache]
+    '22': [python-tilestache]
+    heisenbug: [python-tilestache]
+    schrödinger’s: [python-tilestache]
   ubuntu: [tilestache]
 python-tk:
   arch: [python2, tk]
@@ -1355,6 +1658,10 @@ python-tk:
     saucy: [python-tk]
     trusty: [python-tk]
     trusty_python3: [python3-tk]
+    utopic: [python-tk]
+    utopic_python3: [python3-tk]
+    vivid: [python-tk]
+    vivid_python3: [python3-tk]
 python-tornado:
   debian:
     pip:
@@ -1364,6 +1671,10 @@ python-tornado:
     pip:
       packages: [tornado]
   ubuntu: [python-tornado]
+python-tornado-couchdb-pip:
+  ubuntu:
+    pip:
+      packages: [tornado-couchdb]
 python-tornado-pip:
   debian:
     pip:
@@ -1477,6 +1788,10 @@ python-usb:
     raring: [python-usb]
     saucy: [python-usb]
     trusty: [python-usb]
+python-validictory-pip:
+  ubuntu:
+    pip:
+      packages: [validictory]
 python-vcstool:
   fedora: [python-vcstools]
   macports: [py27-vcstools]
@@ -1495,10 +1810,15 @@ python-vtk:
     saucy: [python-vtk]
     trusty: [python-vtk]
     utopic: [python-vtk]
-python-wstool:
-  fedora:
+    vivid: [python-vtk]
+python-werkzeug:
+  ubuntu: [python-werkzeug]
+python-ws4py-pip:
+  ubuntu:
     pip:
-      packages: [wstool]
+      packages: [ws4py]
+python-wstool:
+  fedora: [python-wstool]
   macports: [py27-wstool]
   ubuntu:
     precise: [python-wstool]
@@ -1529,6 +1849,7 @@ python-yaml:
     trusty: [python-yaml]
     trusty_python3: [python3-yaml]
     utopic: [python-yaml]
+    vivid: [python-yaml]
 python-zmq:
   debian: [python-zmq]
   fedora: [python-zmq]
