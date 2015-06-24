@@ -266,6 +266,13 @@ repositories:
 #      url: https://github.com/ipa320/cob_substitute.git
 #      version: indigo_dev
 #    status: maintained
+  ipa_navigation:
+    source:
+      type: git
+      url: https://github.com/ipa320/ipa_navigation.git
+      version: indigo_dev
+    status: maintained
+
   ros_canopen:
     release:
       packages:
