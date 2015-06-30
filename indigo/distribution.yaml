@@ -284,7 +284,7 @@ repositories:
       - socketcan_interface
       tags:
         release: release/indigo/{package}/{version}
-      url: https://github.com/ipa320/ros_canopen-release.git
+      url: https://github.com/ros-industrial/ros_canopen-release.git
       version: 0.6.2-0
     status: maintained
 tags:
